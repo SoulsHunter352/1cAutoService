@@ -9,4 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ВладельцыАвтомобилей</content>
   <content>Catalog.УдостоверениеЛичности</content>
+  <content>Catalog.МоделиАвтомобилей</content>
+  <content>Catalog.МаркиАвтомобилей</content>
+  <content>Catalog.АвтомобилиКлиентов</content>
 </mdclass:Subsystem>

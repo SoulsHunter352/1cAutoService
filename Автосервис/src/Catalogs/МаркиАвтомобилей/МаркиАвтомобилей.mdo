@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87643148-b291-4d16-9127-bc2597a0dc29">
+  <producedTypes>
+    <objectType typeId="33bc8675-808a-465e-82fa-8637eb418e90" valueTypeId="5523b6fa-01c3-4184-8415-94a6ec42745c"/>
+    <refType typeId="e12e41ce-885a-42ce-b2ef-99b6993c8088" valueTypeId="fab8a17a-897c-473c-91eb-7aabd7f07780"/>
+    <selectionType typeId="b46ed562-2e8c-47a7-abba-feb54277b54b" valueTypeId="f96053e3-e7b7-41c3-a7cc-77b525a4fc7a"/>
+    <listType typeId="6f36f7c1-faad-464b-83f6-c366db2a0ff9" valueTypeId="ee157c58-d0a9-4ac5-a1fb-ebc129bde249"/>
+    <managerType typeId="27f711a7-f374-4d3f-8328-505b1a44eb59" valueTypeId="4997c234-46b5-4339-b4b0-2303ae6bdc9a"/>
+  </producedTypes>
+  <name>МаркиАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МаркиАвтомобилей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МаркиАвтомобилей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
