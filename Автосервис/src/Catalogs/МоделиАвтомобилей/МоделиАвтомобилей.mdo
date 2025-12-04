@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5dc2d46-612a-4053-a770-976e6cb11f5a">
+  <producedTypes>
+    <objectType typeId="67d36abf-b480-4f02-bd97-1e3ebcc2e0bc" valueTypeId="523f983c-c498-4f11-a497-6da0b11da7af"/>
+    <refType typeId="f856b8ab-08a0-4ba4-9f08-828062378fc3" valueTypeId="2bb3273b-0dc4-4995-b8e4-ea97afc32e9a"/>
+    <selectionType typeId="88ebde9a-97a0-4461-9209-1b98ac2c76e0" valueTypeId="de282753-955a-4391-9a33-df7b073d094e"/>
+    <listType typeId="733032e8-816d-476c-8615-01ddf73c2d97" valueTypeId="6e625b58-79b5-4410-b3e8-1fa656d8cde9"/>
+    <managerType typeId="382f310f-5c07-474f-b11d-780ee4578062" valueTypeId="f9c961f6-8d8f-4119-9047-60962fb67603"/>
+  </producedTypes>
+  <name>МоделиАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МоделиАвтомобилей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МоделиАвтомобилей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.МаркиАвтомобилей</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МоделиАвтомобилей.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="7c223389-143e-4497-93ed-14d31c7067d5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
