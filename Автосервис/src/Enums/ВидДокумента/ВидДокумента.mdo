@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f5f1b4-e320-4ff2-81ca-24cf1015b485">
+  <producedTypes>
+    <refType typeId="9c0c0285-2320-44a6-a1ba-a46aecd90caa" valueTypeId="33a88294-1b10-4807-88e9-d5fe1044b007"/>
+    <listType typeId="855019a9-a2ad-4b5d-8d09-2d2bc6c0e8ee" valueTypeId="72c9b6c1-ac62-4839-9947-39850a57ae71"/>
+    <managerType typeId="984b4a7a-6e66-43a6-94ea-6a64893ddb44" valueTypeId="436bfaaf-9a2b-40cc-ad64-61555e048710"/>
+  </producedTypes>
+  <name>ВидДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид документа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bdcea61e-4bc5-46e3-8574-c18313a2b304">
+    <name>Паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83364c29-60ce-464c-b785-57cc3926e3d6">
+    <name>ВоенныйБилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Военный билет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

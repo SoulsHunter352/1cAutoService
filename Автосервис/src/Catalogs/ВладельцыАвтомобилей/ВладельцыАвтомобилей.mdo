@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="702c2509-2764-45c7-be9d-358eb0ed9ab1">
+  <producedTypes>
+    <objectType typeId="9e688598-3cf5-48f7-8865-46de0ec82f42" valueTypeId="892ad3bf-abd6-4b8a-a97c-3fdf071d8c74"/>
+    <refType typeId="11e41ae0-3233-4442-bc5b-d969c4025cac" valueTypeId="a6141b03-5112-4192-954b-3ad9ca95924a"/>
+    <selectionType typeId="ec54f6cf-1ad3-4b09-a9be-798d8aeeefc6" valueTypeId="adf6e203-099e-4f6a-97d6-f8145f8ec212"/>
+    <listType typeId="bf54aaa4-33c0-4f7e-a1bd-6eb145b4b77c" valueTypeId="601975b0-5092-4591-8a5b-b38243685471"/>
+    <managerType typeId="346a421a-4384-4591-a9e8-27f0fb1ff8d5" valueTypeId="1ee9c0f9-b5a8-46a7-a735-2521e7449e02"/>
+  </producedTypes>
+  <name>ВладельцыАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владельцы автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВладельцыАвтомобилей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВладельцыАвтомобилей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bd5e8b06-3a56-49ac-942a-ad32e3cf85c7">
+    <name>ТипВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип владельца</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипВладельца</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="038ff0c1-3b0b-4946-a574-37fe634387e4">
+    <name>АдресПоПропискеИлиЮридическийАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес по прописке или юридический адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f48f3411-fb8c-4ac2-9b03-2bf2fa3d2392">
+    <name>АдресПроживанияИлиФактическийАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес проживания или фактический адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a912adb0-8a17-473c-8d9b-f329469872b4">
+    <name>ДанныеУдостоверенияЛичности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные удостоверения личности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УдостоверениеЛичности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e53cf6e-7477-491b-b878-a2913f4cafe4">
+    <name>ОГРН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОГРН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="520f5ee3-9ba8-4823-976c-0408bdbe6156">
+    <name>ФИОРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО Руководителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4968493a-f8f1-4347-b2e3-aa939767de9d">
+    <name>ТелефонКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон контактного лица</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7(999)999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b976f7da-eb47-4676-ae0e-9d74ee86e405">
+    <name>ИНН_КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН КПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999999999/999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69ff25ff-61c9-45ee-8914-4d128eee33fe">
+    <name>ФИОКонтактогоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО Контактого лица</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
