@@ -39,10 +39,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.РаботыАвтосервиса</subsystems>
+  <catalogs>Catalog.Автодетали</catalogs>
   <catalogs>Catalog.АвтомобилиКлиентов</catalogs>
   <catalogs>Catalog.ВладельцыАвтомобилей</catalogs>
+  <catalogs>Catalog.ДолжностиСотрудников</catalogs>
   <catalogs>Catalog.МаркиАвтомобилей</catalogs>
   <catalogs>Catalog.МоделиАвтомобилей</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.УдостоверениеЛичности</catalogs>
   <enums>Enum.ВидДокумента</enums>
   <enums>Enum.ТипВладельца</enums>

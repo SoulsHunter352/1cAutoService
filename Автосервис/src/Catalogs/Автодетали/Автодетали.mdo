@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="238500d9-9c45-4ab6-8986-447060c11084">
+  <producedTypes>
+    <objectType typeId="82680266-a049-4bb4-a017-e5a6ef9be942" valueTypeId="b3bb2968-8a6a-4df9-8a8f-9fae202c0821"/>
+    <refType typeId="49b31b3b-f086-44d2-a474-e1140342ab32" valueTypeId="2955298d-d8d4-4c17-a021-412c0489aab1"/>
+    <selectionType typeId="254264d0-2bb5-489c-ba85-7a47d396b33b" valueTypeId="b3cf9bd1-459e-410e-a712-09108d1f4885"/>
+    <listType typeId="4eb396d2-5e75-41c6-8763-647682de63a3" valueTypeId="46ac1dcb-4dfb-458b-b4f1-1f3c651ec878"/>
+    <managerType typeId="a6d7976a-ba2f-4f49-a069-21e800c549b2" valueTypeId="842a2d50-af3d-49f0-92da-8a69eeb0a16f"/>
+  </producedTypes>
+  <name>Автодетали</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автодетали</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Автодетали.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Автодетали.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
