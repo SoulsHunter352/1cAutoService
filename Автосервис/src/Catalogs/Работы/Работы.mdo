@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dffae782-4cbc-4560-9581-86807e16f586">
+  <producedTypes>
+    <objectType typeId="2c2caa53-1d6b-4885-9d65-1ad7a6af2869" valueTypeId="cd8d3e1d-f261-445e-8c21-d4ee2b669d9a"/>
+    <refType typeId="47d08c11-f533-488b-af8d-5ead66d2af1a" valueTypeId="3c9eca91-adde-4659-8e1e-efcbf23b3f23"/>
+    <selectionType typeId="7da4df24-1286-41e5-825d-e4872dd0099c" valueTypeId="a7fecaee-de12-4b25-9fc9-5ec8d32a548b"/>
+    <listType typeId="3a259269-f113-4ba8-ba09-2391c68bec94" valueTypeId="23c3c236-d731-44ba-b391-91e10d9e33a5"/>
+    <managerType typeId="36a41e0b-5d87-4516-9723-a360689c5bf9" valueTypeId="399d4f42-3dc9-48c4-8694-5e07791190c7"/>
+  </producedTypes>
+  <name>Работы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Работы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Работы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="45ced177-b38d-4bd0-a805-4002d63c3955">
+    <name>ДлительностьВыполненияРаботыВЧасах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность выполнения работы в часах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0182f787-1c9a-42e3-9a91-aa445e4e28b7">
+    <producedTypes>
+      <objectType typeId="bb4ea312-53da-4e8c-bb9c-c188bb3abc9c" valueTypeId="41def2ae-55e9-4966-b46b-98754f000adb"/>
+      <rowType typeId="f965d3d1-b0a8-4b78-8cdb-925cca29ab0a" valueTypeId="cf8b77e2-1fab-43f0-a79c-79d059898d6a"/>
+    </producedTypes>
+    <name>ДолжностиКоторыеВыполняютРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности которые выполняют работу</value>
+    </synonym>
+    <attributes uuid="3a3db64b-4a96-4ace-a25d-ce5404722fb6">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДолжностиСотрудников</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="0a030b91-b987-4706-87e5-612e51555103">
+    <producedTypes>
+      <objectType typeId="d73c5cb5-60c6-4d19-aba3-0609051c3ebc" valueTypeId="7893d673-aea1-47b5-82e1-e8b4b8a6e360"/>
+      <rowType typeId="a1f73932-96bd-4612-8531-dee9c2e411b9" valueTypeId="669a5285-f098-4a91-a878-3aa1383c6b23"/>
+    </producedTypes>
+    <name>СпецификацияМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация материалов</value>
+    </synonym>
+    <attributes uuid="d421f2d2-6cd5-496b-9589-f44834865f6a">
+      <name>Автодеталь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автодеталь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Автодетали</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d6050a8-208c-4b43-a12a-ca7470b75a4b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>
