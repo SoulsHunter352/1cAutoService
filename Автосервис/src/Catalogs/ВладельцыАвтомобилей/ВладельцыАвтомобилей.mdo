@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>60</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -88,7 +88,7 @@
       <value>Данные удостоверения личности</value>
     </synonym>
     <type>
-      <types>CatalogRef.УдостоверениеЛичности</types>
+      <types>CatalogRef.УдостоверенияЛичности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -174,10 +174,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="69ff25ff-61c9-45ee-8914-4d128eee33fe">
-    <name>ФИОКонтактогоЛица</name>
+    <name>ФИОКонтактногоЛица</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО Контактого лица</value>
+      <value>ФИО Контактного лица</value>
     </synonym>
     <type>
       <types>String</types>
