@@ -39,6 +39,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.РаботыАвтосервиса</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.МастерПриемщик</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Механик</roles>
   <catalogs>Catalog.Автодетали</catalogs>
   <catalogs>Catalog.АвтомобилиКлиентов</catalogs>
   <catalogs>Catalog.ВладельцыАвтомобилей</catalogs>
