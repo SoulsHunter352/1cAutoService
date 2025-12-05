@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="365581bc-4a5d-4359-9a6f-caced58f1ddc">
+  <producedTypes>
+    <selectionType typeId="dcb5b5f5-2a01-4481-a688-690b20fdcd94" valueTypeId="22236654-e028-4aeb-bb31-7436652f6846"/>
+    <listType typeId="21b7fdb1-0373-47e3-baf3-f62ac4aad659" valueTypeId="eccb219e-b26f-4d7e-b7f5-4493b7116374"/>
+    <managerType typeId="5c3e8fb1-38dc-46a5-ac81-2d0dbd283410" valueTypeId="d883984f-a5eb-4f1f-99d5-71124db6d86e"/>
+    <recordSetType typeId="51af6ff6-6300-443e-a743-851c3787eaaf" valueTypeId="761aa6cc-356f-4d12-bf7a-ef4cbb51f5de"/>
+    <recordKeyType typeId="9dd02b59-6229-4b71-9b8f-cb514dc6cb22" valueTypeId="351da955-8a0d-48bb-9af1-8859de27754a"/>
+    <recordType typeId="a8106493-2f33-4c0b-abc6-5f5ec6b08f4c" valueTypeId="43cac12a-7fbf-4e65-8cd3-f0b08404faf1"/>
+    <recordManagerType typeId="0c2e1282-e0e9-4c5e-9c68-ad8c33319bc2" valueTypeId="a97b68f7-6e9a-4474-ab35-65803a9fe38e"/>
+  </producedTypes>
+  <name>СтоимостьМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="77d4cc5a-7cc3-47bc-adce-582fc6b983cb">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7454d9c7-4e4b-41c8-8062-f51a7917d4c5">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="582eb696-f5f1-4f15-a7ee-c586afb9d56b">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

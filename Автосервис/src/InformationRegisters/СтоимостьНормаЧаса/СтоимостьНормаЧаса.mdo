@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e7a6adb-e76a-4445-9b41-6566fed3c61e">
+  <producedTypes>
+    <selectionType typeId="35c5d7b2-98cb-4308-aa50-6f84c8daa0b4" valueTypeId="69f42d17-886f-4836-a9ec-2bb5d82e4309"/>
+    <listType typeId="3fc4d877-f152-4430-aa59-97c76792c36d" valueTypeId="76adc134-bb45-4cd4-88ba-c18e545a709a"/>
+    <managerType typeId="84a25916-fa02-4718-bf77-b97504edf0e8" valueTypeId="62891c5c-20f0-427d-bd0e-393f9343734e"/>
+    <recordSetType typeId="8ecb0101-76c3-4cc7-9d5c-f7da6f65155a" valueTypeId="eb567759-80f2-4fb1-9fa6-ae8a1daf1711"/>
+    <recordKeyType typeId="2722efa1-d6d7-45a8-ba7d-7c10506dfec2" valueTypeId="a750e938-0fe0-4cd3-8f47-6d926d1edd7a"/>
+    <recordType typeId="96666ebf-6f82-4eaa-ad27-1e089c3d105a" valueTypeId="0e0b3cc6-d9a8-4989-a690-a5496876905f"/>
+    <recordManagerType typeId="50873d80-42c4-4546-852d-06f9766d761d" valueTypeId="cf8a1396-dd7c-4373-a8e6-32a87d47a869"/>
+  </producedTypes>
+  <name>СтоимостьНормаЧаса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость норма часа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="15ce7224-149b-48a2-8252-dd576aac3b89">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e97c0852-2638-44ec-a382-c1137e61ab7a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:InformationRegister>
