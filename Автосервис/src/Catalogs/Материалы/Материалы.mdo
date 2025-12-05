@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ad18b50-74cf-4836-bd99-ad7bc48814ba">
+  <producedTypes>
+    <objectType typeId="7ba8fb97-9651-4670-b015-865cdd47d472" valueTypeId="08a9d683-e368-40c1-89ce-213b6247e1ce"/>
+    <refType typeId="bb3848c1-f5a5-40a2-950b-b7b7aa30abfa" valueTypeId="9e345d0d-510f-45a2-ae84-2158c6e5e596"/>
+    <selectionType typeId="69aa964f-0d9e-4360-b01f-027220647d25" valueTypeId="77667c90-fb05-4906-bf42-b27c0abda840"/>
+    <listType typeId="c43f4c67-1abe-4ffb-b283-c1a0b1382cb9" valueTypeId="428129e2-02b8-4972-b3b5-7cd6a8ff384e"/>
+    <managerType typeId="b0c4add1-9b12-4016-a993-9a52c8a26d8d" valueTypeId="fb0f3891-4cf8-464a-bf8f-298d8b58e448"/>
+  </producedTypes>
+  <name>Материалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Материалы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Материалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Материалы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3762aefa-4ea1-40b7-8596-6f1831c531e5">
+    <name>МаркаАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка авто</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаркиАвтомобилей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de31a8f8-fb15-4a07-b148-5cb254bb7f93">
+    <name>МодельАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель авто</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиАвтомобилей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.Материалы.Attribute.МаркаАвто</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50f1c66a-4b10-48b3-8ef3-798c737bcfe3">
+    <name>ОригинальныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинальный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ddeb685-baf7-40c7-a6ce-2d6e001cf0f8">
+    <name>ПризнакАналога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак аналога</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27431caf-4371-4524-a35d-a1d9927d000c">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="966c6c2f-c58d-438c-9dd8-723db7b8f317">
+    <name>СтранаПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна производства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e13bb41-0861-4d8f-ab88-f0ad879ca8fc">
+    <name>Автодеталь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автодеталь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Автодетали</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3ba27c2c-7376-4cd1-b244-d6d0cc3d9b10">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

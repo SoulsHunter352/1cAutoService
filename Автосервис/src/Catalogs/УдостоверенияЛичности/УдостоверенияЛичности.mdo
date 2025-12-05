@@ -7,14 +7,14 @@
     <listType typeId="4e9186fc-3a8f-48aa-a672-5f3d58042b23" valueTypeId="0ce2496a-a14f-454c-bf21-51d26e5ddefe"/>
     <managerType typeId="eb0a23b2-faf9-4586-b80a-7ed6711ee98d" valueTypeId="4200693f-9d48-4fec-b3fa-112a8b84d23c"/>
   </producedTypes>
-  <name>УдостоверениеЛичности</name>
+  <name>УдостоверенияЛичности</name>
   <synonym>
     <key>ru</key>
-    <value>Удостоверение личности</value>
+    <value>Удостоверения личности</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.УдостоверениеЛичности.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.УдостоверениеЛичности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдостоверенияЛичности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УдостоверенияЛичности.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

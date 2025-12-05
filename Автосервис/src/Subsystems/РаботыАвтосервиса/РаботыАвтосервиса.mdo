@@ -8,11 +8,13 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ВладельцыАвтомобилей</content>
-  <content>Catalog.УдостоверениеЛичности</content>
+  <content>Catalog.УдостоверенияЛичности</content>
   <content>Catalog.МоделиАвтомобилей</content>
   <content>Catalog.МаркиАвтомобилей</content>
   <content>Catalog.АвтомобилиКлиентов</content>
   <content>Catalog.ДолжностиСотрудников</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Автодетали</content>
+  <content>Catalog.Работы</content>
+  <content>Catalog.Материалы</content>
 </mdclass:Subsystem>
