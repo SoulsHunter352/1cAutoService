@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ca71010-ea6e-4db3-801d-860fa4a3020a">
+  <name>УчетМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет материалов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.Материалы</content>
+  <content>Document.ПриходМатериалов</content>
+  <content>Document.РасходМатериалов</content>
+  <content>InformationRegister.СтоимостьМатериалов</content>
+</mdclass:Subsystem>

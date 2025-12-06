@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7435ce9-c1e1-4203-ba4b-64b5d68b743c">
+  <producedTypes>
+    <objectType typeId="f88b0f9b-81cc-487a-ad84-73473e26950f" valueTypeId="002490a2-50ca-4f76-8704-82d4294e66a7"/>
+    <refType typeId="0f361875-099a-443f-bfc7-2314b1bb683b" valueTypeId="9dc30b1f-d973-4424-a7c9-1220f79a1047"/>
+    <selectionType typeId="d20ded24-bbf6-4df0-b751-1f2f3f0bf6bc" valueTypeId="97e77b69-a1e6-42d6-bc46-6f46901fec9d"/>
+    <listType typeId="e28a53cd-1a90-4592-b3a9-0bfe36e63fbf" valueTypeId="edd4e67f-7f86-40a8-bbff-92f72b802736"/>
+    <managerType typeId="d908687f-269d-42ff-8bce-dae486fdfab9" valueTypeId="546ce3a7-8e2a-46d6-8cff-8b27c6dbdae3"/>
+  </producedTypes>
+  <name>РасходМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходМатериалов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Материалы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="ab5777f8-6508-482e-b37b-d000a7f2f3e4">
+    <producedTypes>
+      <objectType typeId="f6ec440a-4062-458a-a173-24a9ca236fda" valueTypeId="62bfb787-2607-4665-a00f-2c4be9b18d52"/>
+      <rowType typeId="04ee6908-35b6-4b0f-88eb-fecac6a61d08" valueTypeId="868ea804-f58b-4c1e-bc03-e86b0026c861"/>
+    </producedTypes>
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+    <attributes uuid="cab9526f-5a27-4c59-8984-b1d623356881">
+      <name>Материал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Материал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee83077d-1be2-416a-8484-07602052cdad">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1d712ec-9a91-4bfb-8d15-2e3708e58c06">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66e685a0-92b8-464c-b52c-a5d87bda95e2">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
