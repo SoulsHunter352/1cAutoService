@@ -11,4 +11,5 @@
   <content>Document.ПриходМатериалов</content>
   <content>Document.РасходМатериалов</content>
   <content>InformationRegister.СтоимостьМатериалов</content>
+  <content>Report.ОтчетПоОстаткамМатериалов</content>
 </mdclass:Subsystem>
