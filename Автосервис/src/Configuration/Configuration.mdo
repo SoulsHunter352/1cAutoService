@@ -55,6 +55,7 @@
   <catalogs>Catalog.Работы</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.УдостоверенияЛичности</catalogs>
+  <documents>Document.Калькуляция</documents>
   <documents>Document.ПриходМатериалов</documents>
   <documents>Document.РасходМатериалов</documents>
   <enums>Enum.ВидДокумента</enums>
