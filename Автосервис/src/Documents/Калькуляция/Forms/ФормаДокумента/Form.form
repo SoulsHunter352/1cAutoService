@@ -230,6 +230,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Работы.Работа</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>РаботыРаботаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>РаботыРаботаРасширеннаяПодсказка</name>
           <id>38</id>
@@ -270,6 +274,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Работы.Количество</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>РаботыКоличествоПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>РаботыКоличествоРасширеннаяПодсказка</name>
           <id>41</id>

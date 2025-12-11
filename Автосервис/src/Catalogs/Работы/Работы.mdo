@@ -31,10 +31,10 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="45ced177-b38d-4bd0-a805-4002d63c3955">
-    <name>ДлительностьВыполненияРаботыВЧасах</name>
+    <name>НормаЧас</name>
     <synonym>
       <key>ru</key>
-      <value>Длительность выполнения работы в часах</value>
+      <value>Норма час</value>
     </synonym>
     <type>
       <types>Number</types>
