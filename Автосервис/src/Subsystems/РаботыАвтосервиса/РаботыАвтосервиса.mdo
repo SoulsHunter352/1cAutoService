@@ -20,4 +20,6 @@
   <content>InformationRegister.СтоимостьНормаЧаса</content>
   <content>InformationRegister.СтоимостьМатериалов</content>
   <content>Document.Калькуляция</content>
+  <content>Enum.ТипВладельца</content>
+  <content>Document.ЗаказНаряд</content>
 </mdclass:Subsystem>
