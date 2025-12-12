@@ -347,6 +347,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Работы.Количество</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>РаботыКоличествоПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>РаботыКоличествоРасширеннаяПодсказка</name>
           <id>117</id>
