@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea7e1590-d1ba-484e-b4dc-806d1839a030">
+  <producedTypes>
+    <refType typeId="a9ceff38-c707-4bb9-ab36-4051d85337ac" valueTypeId="7722cd3f-a518-464e-bf51-e52099a8bf87"/>
+    <listType typeId="9e62d3e7-98a1-48e4-a325-86adacc72f23" valueTypeId="ff434c0d-4ce4-43b2-acb6-0049f71f6366"/>
+    <managerType typeId="3abfa78c-3e62-4745-8953-9342d56fcf63" valueTypeId="438a5610-10a9-45d9-b9d2-af4ae0d34d32"/>
+  </producedTypes>
+  <name>ВариантыКалькуляции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты калькуляции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="04e3b1df-7855-4ac0-aefc-fb22981fcef8">
+    <name>Вариант1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4f75012-d9a8-483e-a751-1ad513ea0012">
+    <name>Вариант2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7867e537-e26c-47a5-ad91-5cdc4b55d0b3">
+    <name>Вариант3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант3</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

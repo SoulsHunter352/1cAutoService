@@ -20,4 +20,5 @@
   <content>InformationRegister.СтоимостьНормаЧаса</content>
   <content>InformationRegister.СтоимостьМатериалов</content>
   <content>Document.Калькуляция</content>
+  <content>Document.ЗаписьВСервис</content>
 </mdclass:Subsystem>
