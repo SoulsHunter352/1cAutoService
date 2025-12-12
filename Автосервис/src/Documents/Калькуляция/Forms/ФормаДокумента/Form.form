@@ -589,6 +589,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал1</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериал1ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериал1РасширеннаяПодсказка</name>
             <id>68</id>
@@ -737,6 +741,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал2</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериал2ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериал2РасширеннаяПодсказка</name>
             <id>77</id>
@@ -885,6 +893,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал3</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериал3ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериал3РасширеннаяПодсказка</name>
             <id>86</id>
