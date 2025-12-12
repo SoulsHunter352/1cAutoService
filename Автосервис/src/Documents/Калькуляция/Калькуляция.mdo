@@ -73,6 +73,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d5af7234-178a-430a-931a-7998c3061cd0">
+    <name>МодельАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель автомобиля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиАвтомобилей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27701b3a-dc76-4e04-a1d5-1e6ff1372bb5">
+    <name>МаркаАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка автомобиля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаркиАвтомобилей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="2881e6e5-7c78-49f5-92e8-cf5da42b92e8">
     <name>ФормаДокумента</name>
     <synonym>
@@ -180,6 +210,14 @@
       <choiceParameterLinks>
         <name>Отбор.Автодеталь</name>
         <field>Document.Калькуляция.TabularSection.Автодетали.Attribute.Автодеталь</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МаркаАвто</name>
+        <field>Document.Калькуляция.Attribute.МаркаАвтомобиля</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МодельАвто</name>
+        <field>Document.Калькуляция.Attribute.МодельАвтомобиля</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
