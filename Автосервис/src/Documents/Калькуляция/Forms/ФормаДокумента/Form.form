@@ -131,6 +131,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Автомобиль</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>АвтомобильПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>АвтомобильРасширеннаяПодсказка</name>
       <id>12</id>
@@ -589,6 +593,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал1</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериал1ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериал1РасширеннаяПодсказка</name>
             <id>68</id>
@@ -737,6 +745,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал2</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериал2ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериал2РасширеннаяПодсказка</name>
             <id>77</id>
@@ -885,6 +897,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал3</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериал3ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериал3РасширеннаяПодсказка</name>
             <id>86</id>
@@ -1166,6 +1182,31 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ФормаПечатьЧека</name>
+      <id>153</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаПечатьЧекаРасширеннаяПодсказка</name>
+        <id>154</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ПечатьЧека</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -1207,6 +1248,23 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ПечатьЧека</name>
+    <title>
+      <key>ru</key>
+      <value>Печать чека</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПечатьЧека</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
