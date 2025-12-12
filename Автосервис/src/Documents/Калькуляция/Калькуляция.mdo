@@ -273,6 +273,14 @@
         <name>Отбор.Автодеталь</name>
         <field>Document.Калькуляция.TabularSection.Автодетали.Attribute.Автодеталь</field>
       </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МаркаАвто</name>
+        <field>Document.Калькуляция.Attribute.МаркаАвтомобиля</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МодельАвто</name>
+        <field>Document.Калькуляция.Attribute.МодельАвтомобиля</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -326,6 +334,14 @@
       <choiceParameterLinks>
         <name>Отбор.Автодеталь</name>
         <field>Document.Калькуляция.TabularSection.Автодетали.Attribute.Автодеталь</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МаркаАвто</name>
+        <field>Document.Калькуляция.Attribute.МаркаАвтомобиля</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МодельАвто</name>
+        <field>Document.Калькуляция.Attribute.МодельАвтомобиля</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
