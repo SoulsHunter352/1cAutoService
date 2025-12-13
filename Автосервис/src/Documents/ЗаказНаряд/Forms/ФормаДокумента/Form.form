@@ -205,46 +205,6 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Калькуляция</name>
-    <id>22</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Калькуляция</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>КалькуляцияРасширеннаяПодсказка</name>
-      <id>24</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>КалькуляцияКонтекстноеМеню</name>
-      <id>23</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>ПричинаОбращения</name>
     <id>19</id>
     <visible>true</visible>
@@ -283,35 +243,6 @@
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
     </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>ЗаполнитьДанные</name>
-    <id>102</id>
-    <title>
-      <key>ru</key>
-      <value>Заполнить данные</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ЗаполнитьДанныеРасширеннаяПодсказка</name>
-      <id>103</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
@@ -418,6 +349,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Работы.Работа</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>РаботыРаботаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>РаботыРаботаРасширеннаяПодсказка</name>
             <id>47</id>
@@ -458,6 +393,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Работы.Количество</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>РаботыКоличествоПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>РаботыКоличествоРасширеннаяПодсказка</name>
             <id>50</id>
@@ -498,6 +437,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Работы.НормаЧас</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>РаботыНормаЧасПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>РаботыНормаЧасРасширеннаяПодсказка</name>
             <id>53</id>
@@ -768,6 +711,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Автодеталь</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиАвтодетальПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиАвтодетальРасширеннаяПодсказка</name>
             <id>80</id>
@@ -808,6 +755,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.ДетальКлиента</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиДетальКлиентаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиДетальКлиентаРасширеннаяПодсказка</name>
             <id>98</id>
@@ -841,6 +792,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Материал</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиМатериалПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиМатериалРасширеннаяПодсказка</name>
             <id>83</id>
@@ -881,6 +836,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Автодетали.Количество</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>АвтодеталиКоличествоПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>АвтодеталиКоличествоРасширеннаяПодсказка</name>
             <id>92</id>
@@ -1157,6 +1116,64 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>ЗаполнитьДанные</name>
+      <id>102</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить данные</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ЗаполнитьДанныеРасширеннаяПодсказка</name>
+        <id>103</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЗаполнитьДанные</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаПечатьЧека</name>
+      <id>104</id>
+      <title>
+        <key>ru</key>
+        <value>Печать чека</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаПечатьЧекаРасширеннаяПодсказка</name>
+        <id>105</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ПечатьЧека</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -1199,6 +1216,40 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ПечатьЧека</name>
+    <title>
+      <key>ru</key>
+      <value>Печать чека</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПечатьЧека</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьДанные</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить данные</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьДанные</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
