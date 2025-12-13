@@ -316,11 +316,11 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
-  <templates uuid="e28b3460-6231-450f-9cf8-f3180f88d5b4">
-    <name>МакетНачало</name>
+  <templates uuid="63bb8345-d0bd-4908-982b-dfddd5e3c9ba">
+    <name>НовыйМакет</name>
     <synonym>
       <key>ru</key>
-      <value>Макет начало</value>
+      <value>Новый макет</value>
     </synonym>
   </templates>
 </mdclass:Document>
