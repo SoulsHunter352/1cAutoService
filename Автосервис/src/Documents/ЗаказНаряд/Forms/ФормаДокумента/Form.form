@@ -40,36 +40,6 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <items xsi:type="form:Button">
-    <name>ЗаполнитьДанные</name>
-    <id>102</id>
-    <title>
-      <key>ru</key>
-      <value>Заполнить данные</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ЗаполнитьДанныеРасширеннаяПодсказка</name>
-      <id>103</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.ЗаполнитьДанные</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
-  </items>
   <items xsi:type="form:FormField">
     <name>Дата</name>
     <id>4</id>
@@ -235,6 +205,46 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>Калькуляция</name>
+    <id>22</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Калькуляция</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>КалькуляцияРасширеннаяПодсказка</name>
+      <id>24</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КалькуляцияКонтекстноеМеню</name>
+      <id>23</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ПричинаОбращения</name>
     <id>19</id>
     <visible>true</visible>
@@ -273,6 +283,35 @@
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
     </extInfo>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ЗаполнитьДанные</name>
+    <id>102</id>
+    <title>
+      <key>ru</key>
+      <value>Заполнить данные</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗаполнитьДанныеРасширеннаяПодсказка</name>
+      <id>103</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
@@ -1198,23 +1237,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПечатьФормы</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьДанные</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить данные</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьДанные</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
