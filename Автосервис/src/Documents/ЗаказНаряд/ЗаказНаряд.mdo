@@ -316,4 +316,11 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="63bb8345-d0bd-4908-982b-dfddd5e3c9ba">
+    <name>НовыйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый макет</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
