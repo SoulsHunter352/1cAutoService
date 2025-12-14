@@ -70,6 +70,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ВладелецАвтомобиля</name>
+      <field>Document.ЗаписьВСервис.Attribute.Клиент</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -182,6 +186,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="676e9399-321c-477a-93e5-ac8f62cdd0fa">
+    <name>МаркаАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка автомобиля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаркиАвтомобилей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff7f4f17-7d8d-4ec6-8045-d6579fa3e042">
+    <name>МодельАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель автомобиля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиАвтомобилей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="3a21f421-a615-4a14-b723-b4ded9411428">
     <name>ФормаДокумента</name>
     <synonym>
@@ -287,6 +321,18 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Автодеталь</name>
+        <field>Document.ЗаписьВСервис.TabularSection.Материалы.Attribute.Автодеталь</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МодельАвто</name>
+        <field>Document.ЗаписьВСервис.Attribute.МодельАвтомобиля</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.МаркаАвто</name>
+        <field>Document.ЗаписьВСервис.Attribute.МаркаАвтомобиля</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -350,6 +396,20 @@
       </synonym>
       <type>
         <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="af079049-6266-4454-9c3b-0fa5bbf76fd2">
+      <name>СсылкаНаРаботу</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на работу</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Работы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

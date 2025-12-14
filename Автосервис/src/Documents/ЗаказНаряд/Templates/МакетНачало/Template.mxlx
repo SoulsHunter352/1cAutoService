@@ -12,25 +12,25 @@
 	<columns>
 		<size>7</size>
 		<columnsItem>
-			<index>1</index>
+			<index>0</index>
 			<column>
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>2</index>
+			<index>1</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>2</index>
 			<column>
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>0</index>
+			<index>6</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
@@ -1217,6 +1217,9 @@
 	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
+		<width>55</width>
+	</format>
+	<format>
 		<width>178</width>
 	</format>
 	<format>
@@ -1224,9 +1227,6 @@
 	</format>
 	<format>
 		<width>298</width>
-	</format>
-	<format>
-		<width>55</width>
 	</format>
 	<format>
 		<width>72</width>
