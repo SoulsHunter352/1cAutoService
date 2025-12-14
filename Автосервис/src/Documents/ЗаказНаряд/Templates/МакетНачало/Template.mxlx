@@ -966,41 +966,106 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>36</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Всего по заказ-наряду: [Пропись] копеек</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
 			<c>
+				<i>1</i>
 				<c>
-					<f>6</f>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гарантия на работы: слесарные - 30 дней, электрические - 30 дней, оригинальные з/ч - 30 дней, з/ч,
+связанные с электрооборудованием, подачей топлива и системой впрыска - гарантии нет,
+неоригинальные з/ч - гарантии нет. Гарантийные обязательства на работы выполняются фирмой
+только при предъявлении акта приемки автомобиля и техпаспорта (доверенности).</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<indexTo>22</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
 			<c>
+				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>0</f>
 					<tl/>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
 			<c>
+				<i>1</i>
 				<c>
-					<f>5</f>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мастер-приемщик _______________/ Иванов Алексей Михайлович/</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
 			<c>
+				<i>1</i>
 				<c>
-					<f>5</f>
+					<f>0</f>
+					<tl/>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
 			<c>
+				<i>1</i>
 				<c>
-					<f>8</f>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клиент______________________/ Иванов Алексей Михайлович/</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>5</defaultFormatIndex>
-	<height>20</height>
-	<vgRows>20</vgRows>
+	<height>27</height>
+	<vgRows>27</vgRows>
 	<merge>
 		<r>4</r>
 		<c>1</c>
@@ -1065,6 +1130,17 @@
 		<r>17</r>
 		<c>2</c>
 		<w>1</w>
+	</merge>
+	<merge>
+		<r>19</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>1</c>
+		<h>2</h>
+		<w>5</w>
 	</merge>
 	<verticalUnmerge>
 		<r>4</r>
@@ -1132,11 +1208,11 @@
 		<w>1</w>
 	</verticalUnmerge>
 	<namedItem xsi:type="NamedItemCells">
-		<name>ИтоговаяСумма</name>
+		<name>ИтогСумма</name>
 		<area>
 			<type>Rectangle</type>
 			<beginRow>18</beginRow>
-			<endRow>18</endRow>
+			<endRow>26</endRow>
 			<beginColumn>1</beginColumn>
 			<endColumn>6</endColumn>
 		</area>
@@ -1381,5 +1457,10 @@
 		<font>0</font>
 		<width>136</width>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<width>72</width>
+		<fillType>Template</fillType>
 	</format>
 </document>
