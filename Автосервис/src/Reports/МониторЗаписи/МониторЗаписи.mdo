@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eee484d-fe42-4167-8f52-b36ebe1402bb">
+  <producedTypes>
+    <objectType typeId="fb98dfd8-600f-49c3-80ed-b62a334e87a4" valueTypeId="11648c83-372a-4c45-a9f2-6ff8632f7081"/>
+    <managerType typeId="8b5b7cea-9275-4f74-811d-daa1cd19a0bc" valueTypeId="a62cc9d0-c202-4602-9f56-302c9437985d"/>
+  </producedTypes>
+  <name>МониторЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор записи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МониторЗаписи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="88df2f8e-d898-4028-92a6-7d3bf533ea53">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
