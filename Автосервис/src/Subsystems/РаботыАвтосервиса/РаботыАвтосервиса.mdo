@@ -24,4 +24,5 @@
   <content>Enum.ТипВладельца</content>
   <content>Document.ЗаказНаряд</content>
   <content>Report.ОтчетОПродажах</content>
+  <content>Report.МониторЗаписи</content>
 </mdclass:Subsystem>

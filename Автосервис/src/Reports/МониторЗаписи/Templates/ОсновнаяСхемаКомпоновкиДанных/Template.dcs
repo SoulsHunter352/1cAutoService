@@ -4,9 +4,109 @@
 		<name>ИсточникДанных1</name>
 		<dataSourceType>Local</dataSourceType>
 	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автомобиль</dataPath>
+			<field>Автомобиль</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяНачала</dataPath>
+			<field>ВремяНачала</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.Ссылка</dataPath>
+			<field>Работы.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.НомерСтроки</dataPath>
+			<field>Работы.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.Работа</dataPath>
+			<field>Работы.Работа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.Количество</dataPath>
+			<field>Работы.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.НормаЧас</dataPath>
+			<field>Работы.НормаЧас</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.МастерПриемщик</dataPath>
+			<field>Работы.МастерПриемщик</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.Сумма</dataPath>
+			<field>Работы.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.ИтогСумма</dataPath>
+			<field>Работы.ИтогСумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Работы.СсылкаНаЗапись</dataPath>
+			<field>Работы.СсылкаНаЗапись</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Работы</dataPath>
+			<field>Работы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗаписьВСервис.Клиент,
+	ЗаписьВСервис.Автомобиль,
+	ЗаписьВСервис.ВремяНачала,
+	ЗаказНаряд.Работы.(
+		Ссылка,
+		НомерСтроки,
+		Работа,
+		Количество,
+		НормаЧас,
+		МастерПриемщик,
+		Сумма,
+		ИтогСумма,
+		СсылкаНаЗапись),
+	ЗаказНаряд.Статус
+ИЗ
+	Документ.ЗаказНаряд КАК ЗаказНаряд,
+	Документ.ЗаписьВСервис КАК ЗаписьВСервис
+ГДЕ
+	ЗаказНаряд.Работы.Ссылка = ЗаписьВСервис.Ссылка</query>
+	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяНачала</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автомобиль</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статус</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>
