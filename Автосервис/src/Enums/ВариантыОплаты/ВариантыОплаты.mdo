@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="196333ff-6020-48e6-a9e8-1f8dfb534636">
+  <producedTypes>
+    <refType typeId="4840110c-2a1f-42b1-b8a6-cd384d32d84d" valueTypeId="710d0412-cd8d-40ff-8aa9-f230f997ffaf"/>
+    <listType typeId="db740553-cbe8-4015-8887-abc2a46c9ba5" valueTypeId="a4abf3a9-828a-41ad-8696-0a7a0f7f05c3"/>
+    <managerType typeId="6a7cec52-5e96-4ff9-a8ff-11c0cba0ce0c" valueTypeId="0cb46f17-8e49-42bf-b54c-8d8951a386e1"/>
+  </producedTypes>
+  <name>ВариантыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc2c1791-71b9-4fb3-9ec8-abe9c8dee857">
+    <name>Наличными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличными</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17cc6ec3-3b83-4810-8b9f-50deb0d54f6c">
+    <name>Картой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08ae62e8-4ddb-4271-ac8f-802920eed210">
+    <name>БанковскимПереводом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковским переводом</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
