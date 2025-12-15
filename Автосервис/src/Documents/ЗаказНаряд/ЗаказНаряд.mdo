@@ -220,6 +220,20 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="14a37023-ee50-4966-b181-fb6c4d75ea25">
+      <name>СсылкаНаЗапись</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на запись</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаписьВСервис</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
   <tabularSections uuid="698c9ac4-33b1-47fb-a209-96a99947ffa0">
